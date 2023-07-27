@@ -1,0 +1,19 @@
+<!-- templates/home.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatBot</title>
+</head>
+<body>
+    <h1>Welcome to ChatBot</h1>
+    <p>Click the button below to start chatting with ChatBot.</p>
+    <a href="{% url 'chat' %}" class="btn btn-primary">Start Chatting</a>
+
+    {% block start %}
+
+
+    {% endblock %}
+
+</body>
+</html>
